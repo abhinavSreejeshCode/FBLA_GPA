@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.navbar-custom {
+  height: 8%;
+  background-color: rgba(183, 195, 236, 0.822);
+}
+
+a {
+  padding: 25px;
+  font-size: 22px;
+  color: white;
+}
+#logo {
+  padding-left: 3%;
+  font-size: 35px;
+  font-family: "Poppins", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+}
+
+ul {
+  padding-right: 5%;
+}
+li {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Poppins", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+}
+
+.nav-link {
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+.card {
+  display: flex;
+  width: 45%;
+  height: 650px;
+}
+
+#main-container {
+  padding-top: 3%;
+}
+
+.my-card {
+  background-color: white;
+  width: 1000px;
+  height: 500px;
+}
+
+.card {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 900px;
+  height: 715px;
+}
+
+.form-control {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+select {
+  width: 170px;
+  height: 50px;
+}
+
+input {
+  width: 170px;
+  height: 50px;
+
+  border-width: 1px;
+}
+
+nav li {
+  padding: 10px;
+}
+
+.every-input {
+  padding: 0;
+  list-style: none;
+}
+
+.every-input li {
+  display: inline-block;
+  margin: 0;
+}
+
+input:hover {
+  border-color: rgba(138, 158, 231, 0.432);
+  border-width: 3px;
+  transition: 0.1s;
+}
+
+select:hover {
+  border-color: rgba(138, 158, 231, 0.432);
+  border-width: 3px;
+  transition: 0.1s;
+}
+
+.card {
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: rgb(138, 158, 231);
+}
+
+.my-card {
+  margin-left: 20px;
+  margin-top: 20px;
+  background: none;
+}
+
+.row {
+  padding: 0;
+}
+
+.col {
+  padding: 0%;
+}
+
+.table-responsive {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.form-control {
+  width: 150px;
+  height: 50px;
+}
+
+.toggle {
+  height: 20px;
+  padding: 0px;
+}
+
+.jumbotron {
+  height: 30%;
+}
