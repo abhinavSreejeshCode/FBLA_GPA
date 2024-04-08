@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.navbar-custom {
+  height: 8%;
+}
+
+#logo {
+  padding-left: 3%;
+  font-size: 35px;
+  font-family: "Poppins", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+  color: white;
+}
+
+ul {
+  padding-right: 5%;
+  color: white;
+}
+li {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Poppins", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#QA {
+  background-color: rgb(16, 16, 231);
+  border-radius: 50%;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+
+  border-radius: 30%;
+  box-shadow: 0 0 0 0 #0004;
+  animation: pl2 1.5s infinite linear;
+  position: absolute;
+}
+.pulsing-2:before,
+.pulsing-2:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 0 0 rgba(88, 3, 246, 0.267);
+  animation: inherit;
+  animation-delay: -0.5s;
+}
+.pulsing-2:after {
+  animation-delay: -1s;
+}
+@keyframes pl2 {
+  100% {
+    box-shadow: 0 0 0 40px rgb(168, 168, 168);
+  }
+}
+#QA:hover {
+  background-color: aliceblue;
+}
+
+.QA-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  height: 300px;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.form-container .close {
+  background-color: red;
+  border-radius: 8px;
+}
+
+.form-container .btn:hover,
+#QA:hover {
+  opacity: 1;
+}
+.submit {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
